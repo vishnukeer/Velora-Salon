@@ -7,13 +7,17 @@
     <link href="/src/style.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css">
+    <!-- font-family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <main>
         <header class="sticky top-0 z-50 w-full border-b border-[#C6A15B] bg-[#F7F3EE] backdrop-blur-md">
-
-            <!-- Main Header -->
+            <!-- ///////Main Header ///////-->
             <div class="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 sm:px-8 lg:px-10">
 
                 <!-- Logo -->
@@ -42,43 +46,43 @@
                 <!-- Desktop Navigation -->
                 <nav class="hidden items-center gap-8 lg:flex">
 
-                    <a href="index.html" class="py-2 text-sm font-medium text-[#171717] transition duration-300">
+                    <a href="index.html" class="py-2 text-base text-[#171717] transition duration-300">
                         Home
                     </a>
                     <a href=""
-                        class="group relative py-2 text-sm font-medium text-[#171717] transition duration-300 hover:text-[#C6A15B]">
+                        class="group relative py-2 text-base text-[#171717] transition duration-300 hover:text-[#C6A15B]">
                         About
                         <span
                             class="absolute -bottom-1 left-0 h-px w-full origin-right scale-x-0 bg-[#C6A15B] transition duration-300 group-hover:scale-x-100"></span>
-                    </a>
-                    <a href=""
-                        class="group relative py-2 text-sm font-medium text-[#171717] transition duration-300 hover:text-[#C6A15B]">
-                        Services
 
-                        <span
-                            class="absolute -bottom-1 left-0 h-px w-full origin-right scale-x-0 bg-[#C6A15B] transition duration-300 group-hover:scale-x-100"></span>
-                    </a>
+                        <a href=""
+                            class="group relative py-2 text-base text-[#171717] transition duration-300 hover:text-[#C6A15B]">
+                            Services
 
-                    <a href=""
-                        class="group relative py-2 text-sm font-medium text-[#171717] transition duration-300 hover:text-[#C6A15B]">
-                        Gallery
-                        <span
-                            class="absolute -bottom-1 left-0 h-px w-full origin-right scale-x-0 bg-[#C6A15B] transition duration-300 group-hover:scale-x-100"></span>
-                    </a>
-                    <a href=""
-                        class="group relative py-2 text-sm font-medium text-[#171717] transition duration-300 hover:text-[#C6A15B]">
-                        Testimonials
-                        <span
-                            class="absolute -bottom-1 left-0 h-px w-full origin-right scale-x-0 bg-[#C6A15B] transition duration-300 group-hover:scale-x-100"></span>
-                    </a>
+                            <span
+                                class="absolute -bottom-1 left-0 h-px w-full origin-right scale-x-0 bg-[#C6A15B] transition duration-300 group-hover:scale-x-100"></span>
+                        </a>
 
-                    <a href=""
-                        class="group relative py-2 text-sm font-medium text-[#171717] transition duration-300 hover:text-[#C6A15B]">
-                        Contact
+                        <a href=""
+                            class="group relative py-2 text-base text-[#171717] transition duration-300 hover:text-[#C6A15B]">
+                            Gallery
+                            <span
+                                class="absolute -bottom-1 left-0 h-px w-full origin-right scale-x-0 bg-[#C6A15B] transition duration-300 group-hover:scale-x-100"></span>
+                        </a>
+                        <a href=""
+                            class="group relative py-2 text-base text-[#171717] transition duration-300 hover:text-[#C6A15B]">
+                            Testimonials
+                            <span
+                                class="absolute -bottom-1 left-0 h-px w-full origin-right scale-x-0 bg-[#C6A15B] transition duration-300 group-hover:scale-x-100"></span>
+                        </a>
 
-                        <span
-                            class="absolute -bottom-1 left-0 h-px w-full origin-right scale-x-0 bg-[#C6A15B] transition duration-300 group-hover:scale-x-100"></span>
-                    </a>
+                        <a href=""
+                            class="group relative py-2 text-base text-[#171717] transition duration-300 hover:text-[#C6A15B]">
+                            Contact
+
+                            <span
+                                class="absolute -bottom-1 left-0 h-px w-full origin-right scale-x-0 bg-[#C6A15B] transition duration-300 group-hover:scale-x-100"></span>
+                        </a>
 
                 </nav>
 
@@ -86,10 +90,11 @@
                 <!-- Desktop CTA -->
                 <div class="hidden lg:block">
 
-                    <a href="contact.html"
+                    <a href=""
                         class="group inline-flex items-center gap-3 rounded-full bg-[#171717] px-6 py-3 text-xs font-medium uppercase tracking-[0.16em] text-[#F7F3EE] transition duration-300 hover:bg-[#C6A15B] hover:text-[#171717]">
                         Book Appointment
-                        <i class="fa-solid fa-arrow-right-long"></i>
+                        <i
+                            class="fa-solid fa-arrow-right-long transition-transform duration-300 group-hover:translate-x-1"></i>
 
                     </a>
 
@@ -97,7 +102,7 @@
                 <!-- Mobile Menu Button -->
                 <button type="button"
                     class="flex h-11 w-11 items-center justify-center rounded-full border border-[#171717]/20 text-[#171717] transition duration-300 hover:border-[#C6A15B] hover:text-[#C6A15B] lg:hidden">
-                    <i class="fa-solid fa-bars" aria-hidden="true"></i>
+                    <i class="fa-solid fa-bars"></i>
                 </button>
 
             </div>
@@ -105,20 +110,173 @@
 
             <!-- Mobile Navigation -->
             <div class="border-t border-[#C6A15B]/15 bg-[#F7F3EE] lg:hidden">
-                <nav class="mx-auto flex max-w-7xl flex-col px-5 py-5 sm:px-8" aria-label="Mobile navigation">
+                <nav class="mx-auto flex max-w-7xl flex-col px-5 py-5 sm:px-8">
                     <!-- Mobile CTA -->
                     <a href="contact.html"
                         class="flex items-center justify-center gap-3 rounded-full bg-[#171717] px-6 py-4 text-xs font-medium uppercase tracking-[0.18em] text-[#F7F3EE] transition duration-300 hover:bg-[#C6A15B] hover:text-[#171717]">
                         Book Appointment
-                        <i class="fa-solid fa-arrow-right-long" aria-hidden="true"></i>
+                        <i class="fa-solid fa-arrow-right-long"></i>
                     </a>
 
                 </nav>
             </div>
 
         </header>
+        <!--///// VELORA HERO SECTION //////-->
+        <section class="relative overflow-hidden bg-[#F7F3EE]">
+            <!-- Decorative champagne circle -->
+            <div class=" absolute -right-32 -top-32 h-72 w-72
+               rounded-full bg-[#C6A15B]/10
+               sm:h-96 sm:w-96">
+            </div>
 
-        
+            <div class="mx-auto grid min-h-[80vh] max-w-7xl
+               grid-cols-1 items-center gap-12
+               px-5 py-14
+               sm:px-8 sm:py-16
+               lg:grid-cols-2 lg:gap-16 lg:px-10 lg:py-20">
+                <!-- LEFT CONTENT -->
+                <div class="relative z-10 max-w-2xl">
+                    <!-- Small label -->
+                    <div class="mb-6">
+                        <p class="text-xs font-medium uppercase
+                           tracking-[0.3em] text-[#C6A15B]">
+                            Luxury Salon · Jaipur
+                        </p>
+                    </div>
+                    <!-- Main Heading -->
+                    <h1 class="text-5xl font-medium leading-[0.95]
+                       tracking-tight text-[#171717]
+                       sm:text-6xl
+                       md:text-7xl
+                       lg:text-8xl">
+                        Your beauty.
+                        <span class="block italic text-[#C6A15B]">
+                            Your signature.
+                        </span>
+                    </h1>
+
+                    <!-- Description -->
+                    <p class="mt-7 max-w-xl text-base
+                       text-[#171717]/65
+                       sm:text-lg sm:leading-8">
+                        Discover a refined beauty experience where
+                        modern style meets personalized care.
+                        Hair, skin and beauty treatments crafted
+                        around you.
+                    </p>
+
+                    <!-- Buttons -->
+                    <div class="mt-9 flex flex-col gap-4
+                       sm:flex-row sm:items-center">
+
+                        <!-- Primary Button -->
+                        <a href="" class="group hidden sm:inline-flex items-center justify-center gap-3 rounded-full bg-[#171717] px-7 py-4 text-sm font-medium uppercase tracking-[0.12em] text-[#F7F3EE] transition-all duration-300 hover:bg-[#C6A15B] hover:text-[#171717]">
+                            Book Appointment
+                            <i class="fa-solid fa-arrow-right-long transition-transform duration-300 group-hover:translate-x-1"></i>
+                        </a>
+
+
+                        <!-- Secondary Button -->
+                        <a href="" class="inline-flex items-center justify-center rounded-full border border-[#171717]/20 px-7 py-4 text-sm font-medium uppercase tracking-[0.12em] text-[#171717] transition-all duration-300 hover:border-[#C6A15B] hover:text-[#C6A15B]">
+                            Explore Services
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- RIGHT IMAGE -->
+                <div class="relative w-full max-w-xllg:ml-auto">
+
+                    <!-- Decorative border -->
+                    <div class="absolute -bottom-5 -left-5
+                       h-full w-full
+                       rounded-[]
+                       border border-[#C6A15B]/40
+                       sm:-bottom-6 sm:-left-6">
+                    </div>
+
+
+                    <!-- Image container -->
+                    <div class="relative z-10 h-[480px] overflow-hidden rounded-[2rem] sm:h-[580px] lg:h-[650px]">
+
+                        <img src="./assets/heroImage.avif" alt="Luxury salon interior with elegant beauty styling"
+                            class="h-full    w-full object-cover transition duration-700 hover:scale-105">
+                    </div>
+                </div>
+        </section>
+
+        <!-- Trust Information -->
+        <section class="hidden sm:block relative overflow-hidden bg-[#F7F3EE]">
+            <div class="mx-auto max-w-7xl px-5 py-14 sm:px-8 sm:py-16 lg:px-10 lg:py-20">
+                <!-- Statistics -->
+                <div class="grid grid-cols-1 overflow-hidden rounded-3xl border border-[#171717]/10 bg-[#F7F3EE] sm:grid-cols-3">
+                    <!-- Experience -->
+                    <article class="group relative px-7 py-8 transition duration-500 hover:bg-[#171717] sm:px-8 sm:py-10 lg:px-12 lg:py-12">
+                        <div class="flex items-start justify-between">
+                            <span class="text-5xl font-medium tracking-tight text-[#171717] transition duration-500 group-hover:text-[#F7F3EE] sm:text-6xl">
+                                8<span class="text-[#C6A15B]">+</span>
+                            </span>
+                        </div>
+                        <div class="mt-8">
+                            <h2 class="text-sm font-semibold uppercase tracking-[0.18em] text-[#171717] transition duration-500 group-hover:text-[#F7F3EE]">
+                                Years of Experience
+                            </h2>
+
+                            <p class="mt-2 max-w-xs text-sm leading-6 text-[#171717]/50 transition duration-500 group-hover:text-[#F7F3EE]/60">
+                                Expertise shaped by years of beauty,
+                                styling and personalized care.
+                            </p>
+                        </div>
+                    </article>
+
+
+                    <!-- Clients -->
+                    <article class="group relative border-t border-[#171717]/10 px-7 py-8 transition duration-500 hover:bg-[#171717] sm:border-l sm:border-t-0 sm:px-8 sm:py-10 lg:px-12 lg:py-12">
+
+                        <div class="flex items-start justify-between">
+                            <span
+                                class="text-5xl font-medium tracking-tight text-[#171717] transition duration-500 group-hover:text-[#F7F3EE] sm:text-6xl">
+                                12<span class="text-[#C6A15B]">K+</span>
+                            </span>
+                        </div>
+                        <div class="mt-8">
+                            <h2 class="text-sm font-semibold uppercase tracking-[0.18em] text-[#171717] transition duration-500 group-hover:text-[#F7F3EE]">
+                                Happy Clients
+                            </h2>
+
+                            <p class="mt-2 max-w-xs text-sm leading-6 text-[#171717]/50 transition duration-500 group-hover:text-[#F7F3EE]/60">
+                                Thousands of clients who trusted us
+                                with their beauty journey.
+                            </p>
+                        </div>
+                    </article>
+
+                    <!-- rating -->
+                    <article class="group relative border-t border-[#171717]/10 px-7 py-8 transition duration-500 hover:bg-[#171717] sm:border-l sm:border-t-0 sm:px-8 sm:py-10 lg:px-12 lg:py-12">
+
+                        <div class="flex items-start justify-between">
+
+                            <span class="text-5xl font-medium tracking-tight text-[#171717] transition duration-500 group-hover:text-[#F7F3EE] sm:text-6xl">
+                                4.2<span class="text-[#C6A15B]">/5</span>
+                            </span>
+                        </div>
+                        <div class="mt-8">
+
+                            <h2 class="text-sm font-semibold uppercase tracking-[0.18em] text-[#171717] transition duration-500 group-hover:text-[#F7F3EE]">
+                                Client Rating
+                            </h2>
+
+                            <p class="mt-2 max-w-xs text-sm leading-6 text-[#171717]/50 transition duration-500 group-hover:text-[#F7F3EE]/60">
+                                Rated by our clients for quality,
+                                service and overall experience.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
     </main>
 </body>
 
